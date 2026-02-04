@@ -1,0 +1,47 @@
+{
+  "name": "hands-on-mundo-geek",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch src/**/*.ts --exec tsx src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabeSot69/hands-on-mundo-geek.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabeSot69/hands-on-mundo-geek/issues"
+  },
+  "homepage": "https://github.com/GabeSot69/hands-on-mundo-geek#readme",
+  "devDependencies": {
+    "@types/compression": "^1.8.1",
+    "@types/cors": "^2.8.19",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^25.2.0",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/pg": "^8.16.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1",
+    "pg": "^8.18.0",
+    "typeorm": "^0.3.28",
+    "winston": "^3.19.0",
+    "zod": "^4.3.6"
+  }
+}
